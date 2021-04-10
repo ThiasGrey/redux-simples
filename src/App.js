@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="App">
       <h1>Exercicio React - Redux</h1>
 
@@ -20,6 +20,9 @@ function App() {
       </div>
 
     </div>
+=======
+    <div> TESTE </div>
+>>>>>>> b04b5f042ad2176af891b5c0ba05fc972e36e094
   );
 }
 
