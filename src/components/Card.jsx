@@ -9,7 +9,7 @@ export default props => {
                     {props.title}     
                 </span>   
             </div> 
-            <div className="content">
+            <div className="contents">
                 {props.children}
             </div>
         </div>
