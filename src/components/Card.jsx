@@ -4,7 +4,6 @@ import {Card} from 'antd'
 
 
 function getHeaderStyle(props){
-    
 
     function headerConfig(color, backgroundColor){
         const valores = {
