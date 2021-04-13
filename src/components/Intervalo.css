@@ -1,0 +1,18 @@
+.inter-content{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.inter-content span{
+    color: #999;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.inter-content input[type=number]{
+   border: solid 2px #1890ff ;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 5px;
+}

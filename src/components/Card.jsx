@@ -10,7 +10,8 @@ function getHeaderStyle(props){
         const valores = {
             color: color,
             backgroundColor: backgroundColor,
-            fontWeight: 700
+            fontWeight: 700,
+            minWidth:350
         }
         return valores
     }
