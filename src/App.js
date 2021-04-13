@@ -1,28 +1,24 @@
 import './App.css';
-import Card from './components/Card';
+import Cartao from './components/Card';
 
 function App() {
   return (
-<<<<<<< HEAD
     <div className="App">
       <h1>Exercicio React - Redux</h1>
 
       <div className='linha'>
-        <Card title="Teste"></Card>
-        <Card></Card>
-        <Card></Card>
+        <Cartao title="Card1" Red>Teste Texto</Cartao>
+        <Cartao title="Card2" Green>Teste Texto</Cartao>
+        <Cartao title="Card3" Blue>Teste Texto</Cartao>
       </div>
 
       <div className='linha'>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Cartao title="Card3" Blue>Teste Texto</Cartao>
+        <Cartao title="Card1" Red>Teste Texto</Cartao>
+        <Cartao title="Card2" Green>Teste Texto</Cartao>
       </div>
 
     </div>
-=======
-    <div> TESTE </div>
->>>>>>> b04b5f042ad2176af891b5c0ba05fc972e36e094
   );
 }
 
