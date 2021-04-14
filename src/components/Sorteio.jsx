@@ -3,17 +3,17 @@ import Cartao from './Card'
 
 const Sorteio =  props =>  {
 
-    const {min, max} = props
-    const aleatorio = parseInt(
+    //const {min, max} = props
+    /*const aleatorio = parseInt(
         Math.random() * (max - min)
-    ) + min
+    ) + min */
 
     return(
         
         <Cartao title="Sorteio dos Números" Purple>
             <div>
                 <span>Sorteio é: </span>
-                <strong>{aleatorio}</strong>
+                <strong>{10}</strong>
             </div>
             
         </Cartao>
